@@ -1,0 +1,21 @@
+{
+  "name": "customizable-qr-code-generator",
+  "version": "1.1.0",
+  "description": "A QR code generator with customizable options such as size, color, and error correction level.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metlaughin/customizable-qr-code-generator"
+  },
+  "keywords": ["qr code", "generator", "customizable", "canvas"],
+  "author": "Artem Ajur",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.4.4",
+    "canvas": "^2.8.0",
+    "jsdom": "^16.4.0"
+  }
+}
